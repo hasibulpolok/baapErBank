@@ -17,23 +17,38 @@
         <h1 class="text-5xl text-center mt-16">Let's get some <span
                 class="font-semibold text-purple-600">Moooooney</span>!!!</h1>
     </header>
-    <main>
+    <main class="w-3/4 mx-auto">
+        <!-- balance calculation -->
         <section class="mt-12">
-        <div class="grid grid-cols-3 gap-4  w-3/4 mx-auto">
-            <div class="bg-blue-300 p-8 rounded">
-                <h3 class="text-2xl text-semibold">Deposit</h3>
-                <h4 class="text-4xl text-white">$<span>00</span></h4>
+            <div class="grid grid-cols-3 gap-4  ">
+                <div class="bg-blue-300 p-8 rounded">
+                    <h3 class="text-2xl font-semibold">Deposit</h3>
+                    <h4 class="text-4xl text-white">$<span>00</span></h4>
+                </div>
+                <div class="bg-green-300 p-8 rounded">
+                    <h3 class="text-2xl font-semibold">Withdraw</h3>
+                    <h4 class="text-4xl text-white">$<span>00</span></h4>
+                </div>
+                <div class="bg-yellow-300 p-8 rounded">
+                    <h3 class="text-2xl font-semibold">Balance</h3>
+                    <h4 class="text-4xl text-white">$<span>00</span>
+                </div>
             </div>
-            <div class="bg-green-300 p-8 rounded">
-                <h3 class="text-2xl">Withdraw</h3>
-                <h4 class="text-4xl text-white">$<span>00</span></h4>
+        </section>
+        <!-- Deposit & Withdraw -->
+        <section>
+            <div class="grid grid-cols-2 justify-around">
+                <div>
+                    <h3 class="text-2xl">Please Deposit</h3>
+                    <div>
+                        <input id="user-email" class="border border-gray-400 rounded block w-3/4 mb-2 px-3" type="text" name=""
+                            id="" placeholder="Deposit" required>
+                        <button id="deposit" class="bg-yellow-600 px-4 py-2 rounded font-medium text-white">Deposit</button>
+                    </div>
+                </div>
+                
             </div>
-            <div class="bg-yellow-300 p-8 rounded">
-                <h3 class="text-2xl ">Balance</h3>
-                <h4 class="text-4xl text-white">$<span>00</span>
-            </div>
-        </div>
-    </section>
+        </section>
     </main>
 </body>
 
