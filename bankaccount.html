@@ -36,14 +36,22 @@
             </div>
         </section>
         <!-- Deposit & Withdraw -->
-        <section>
-            <div class="grid grid-cols-2 justify-around">
-                <div>
-                    <h3 class="text-2xl">Please Deposit</h3>
+        <section class="mt-8">
+            <div class="grid grid-cols-2 gap-4 justify-around">
+                <div class="bg-red-100 p-8 rounded">
+                    <h3 class="text-2xl font-medium">Please Deposit</h3>
                     <div>
-                        <input id="user-email" class="border border-gray-400 rounded block w-3/4 mb-2 px-3" type="text" name=""
-                            id="" placeholder="Deposit" required>
-                        <button id="deposit" class="bg-yellow-600 px-4 py-2 rounded font-medium text-white">Deposit</button>
+                        <input id="deposit-amount" class="border border-gray-400 rounded block w-3/4 mb-2 px-3" type="text" name=""
+                            id="" placeholder="Deposit $" required>
+                        <button id="deposit-button" class="bg-yellow-600 px-4 py-2 rounded font-medium text-white ">Deposit</button>
+                    </div>
+                </div>
+                <div class="bg-green-100 p-8 rounded">
+                    <h3 class="text-2xl font-medium">Withdraw</h3>
+                    <div>
+                        <input id="Withdraw-amount" class="border border-gray-400 rounded block w-3/4 mb-2 px-3" type="text" name=""
+                            id="" placeholder="Withdraw $" required>
+                        <button id="withdraw-button" class="bg-yellow-600 px-4 py-2 rounded font-medium text-white">Withdraw</button>
                     </div>
                 </div>
                 
